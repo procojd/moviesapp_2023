@@ -8,6 +8,7 @@ import 'package:moviesapp_2023/moviemodel.dart';
 import 'package:moviesapp_2023/screens/explore.dart';
 import 'package:moviesapp_2023/screens/favourite.dart';
 import 'package:moviesapp_2023/screens/popularmovies.dart';
+import 'package:moviesapp_2023/screens/search.dart';
 import 'package:moviesapp_2023/screens/trendingmovies.dart';
 import 'package:moviesapp_2023/screens/watchlist.dart';
 import 'package:moviesapp_2023/utils/style.dart';
@@ -96,21 +97,36 @@ class _HomeState extends State<Home> {
               padding: const EdgeInsets.all(8.0),
               child: const Text('So are you getting bored?', style: klarge),
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8.0),
-              child: AnimSearchBar(
-                width: MediaQuery.of(context).size.width * 1,
-                textController: textController,
-                onSuffixTap: null,
-                onSubmitted: (p0) {},
-                color: Color.fromARGB(255, 226, 226, 226),
-                textFieldColor: Color.fromARGB(255, 231, 231, 231),
-                searchIconColor: kc1,
-                textFieldIconColor: kc1,
-                helpText: "Lords of the ring",
-                style: kbiglight,
-              ),
-            ),
+            IconButton(
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) {
+                    return SearchMovies();
+                  }));
+                },
+                icon: const Icon(
+                  CupertinoIcons.search,
+                  color: kc1,
+                )),
+            // Padding(
+            //   padding: const EdgeInsets.symmetric(horizontal: 8.0),
+            //   child: AnimSearchBar(
+            //     width: MediaQuery.of(context).size.width * 1,
+            //     textController: textController,
+            //     onSuffixTap: null,
+            //     onSubmitted: (p0) {
+            //       return Navigator.push(context,
+            //           MaterialPageRoute(builder: (context) {
+            //         return fvlist();
+            //       }));
+            //     },
+            //     color: Color.fromARGB(255, 226, 226, 226),
+            //     textFieldColor: Color.fromARGB(255, 231, 231, 231),
+            //     searchIconColor: kc1,
+            //     textFieldIconColor: kc1,
+            //     helpText: "Lords of the ring",
+            //     style: kbiglight,
+            //   ),
+            // ),
             SizedBox(
               height: 10,
             ),
