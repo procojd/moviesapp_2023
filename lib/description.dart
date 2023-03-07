@@ -186,9 +186,12 @@ class Description extends StatelessWidget {
                         const SizedBox(
                           height: 10,
                         ),
-                        Container(
-                          // height: MediaQuery.of(context).size.height * 0.4,
-                          child: Text(description, style: knormal),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            // height: MediaQuery.of(context).size.height * 0.4,
+                            child: Text(description, style: knormal),
+                          ),
                         ),
                         const SizedBox(
                           height: 10,

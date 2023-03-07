@@ -25,6 +25,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.3"
+  animate_do:
+    dependency: "direct main"
+    description:
+      name: animate_do
+      sha256: "9aeacc1a7238f971c039bdf45d13c628be554a242e0251c4ddda09d19a1a923f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.2"
   args:
     dependency: transitive
     description:
@@ -246,6 +254,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  flutter_speed_dial:
+    dependency: "direct main"
+    description:
+      name: flutter_speed_dial
+      sha256: "41d7ad0bc224248637b3a5e0b9083e912a75445bdb450cf82b8ed06d7af7c61d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.2.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -600,6 +616,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  tab_indicator_styler:
+    dependency: "direct main"
+    description:
+      name: tab_indicator_styler
+      sha256: "9e7e90367e20f71f3882fc6578fdcced35ab1c66ab20fcb623cdcc20d2796c76"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   term_glyph:
     dependency: transitive
     description:

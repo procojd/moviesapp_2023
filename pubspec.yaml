@@ -43,6 +43,9 @@ dependencies:
   hive_flutter: ^1.1.0
   hive_generator: ^2.0.0
   build_runner: ^2.3.3
+  animate_do: ^3.0.2
+  tab_indicator_styler: ^2.0.0
+  flutter_speed_dial: ^6.2.0
 
 dev_dependencies:
   flutter_test:
