@@ -1,19 +1,28 @@
+// ignore_for_file: unused_import, unnecessary_new
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:moviesapp_2023/key.dart';
+import 'package:moviesapp_2023/moviemodel.dart';
 import 'package:moviesapp_2023/screens/explore.dart';
 import 'package:moviesapp_2023/screens/popularmovies.dart';
 import 'package:moviesapp_2023/screens/trendingmovies.dart';
 import 'package:moviesapp_2023/utils/style.dart';
 import 'package:anim_search_bar/anim_search_bar.dart';
-// import 'package:movie_app_flutter/utils/text.dart';
-// import 'package:movie_app_flutter/widgets/toprated.dart';
-// import 'package:movie_app_flutter/widgets/trending.dart';
-// import 'package:movie_app_flutter/widgets/tv.dart';
+import 'package:hive/hive.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+
 import 'package:tmdb_api/tmdb_api.dart';
 
-void main() => runApp(new MyApp());
+late Box box;
+
+Future<void> main() async{
+  await Hive.initFlutter();
+  Hive.registerAdapter<Add>(AddAdapter());
+  box = await Hive.openBox<Add>("addmovie");
+  runApp(new MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
