@@ -4,13 +4,9 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a movie app created using tmdb API.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1678210938](https://user-images.githubusercontent.com/94393895/223522601-5fcb7a1b-7d50-4f66-a083-eb6176b0af43.png)
+![Screenshot_1678210919](https://user-images.githubusercontent.com/94393895/223522631-cc79d0cb-e2ea-4e1f-9421-16cadac4aee5.png)
+![Screenshot_1678210916](https://user-images.githubusercontent.com/94393895/223522636-d76bfab1-0476-4bb8-ab9a-8621d95f941f.png)
+![Screenshot_1678210895](https://user-images.githubusercontent.com/94393895/223522639-69be9cdf-4702-497e-8b77-3a232b56c42b.png)
