@@ -6,6 +6,8 @@ A new Flutter project.
 
 This project is a movie app created using tmdb API.
 
+<img width="1063" alt="Screenshot 2023-03-12 at 3 32 26 AM" src="https://user-images.githubusercontent.com/94393895/224513534-c7df47fa-953c-4e2d-ab07-36e9a6b1d935.png">
+
 ![Screenshot_1678210938](https://user-images.githubusercontent.com/94393895/223522601-5fcb7a1b-7d50-4f66-a083-eb6176b0af43.png)
 ![Screenshot_1678210919](https://user-images.githubusercontent.com/94393895/223522631-cc79d0cb-e2ea-4e1f-9421-16cadac4aee5.png)
 ![Screenshot_1678210916](https://user-images.githubusercontent.com/94393895/223522636-d76bfab1-0476-4bb8-ab9a-8621d95f941f.png)
